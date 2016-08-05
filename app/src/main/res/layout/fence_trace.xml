@@ -1,0 +1,82 @@
+<!--
+ A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available.
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--
+     As the main content view, the view below consumes the entire
+             space available using match_parent in both dimensions.
+    -->
+    <com.amap.api.maps.MapView
+        android:id="@+id/trace_mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="bottom|center|start"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+
+
+        <Button
+            android:id="@+id/me_drawer_button1"
+            android:gravity="center"
+            android:text="@string/me_drawer_button1"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+
+            android:layout_weight="1"
+            android:textColor="#ffffffff"
+            android:background="#ba848484"/>
+
+        <Button
+            android:id="@+id/me_drawer_button2"
+            android:gravity="center"
+            android:text="@string/me_drawer_button2"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:textColor="#ffffffff"
+            android:background="#ba848484"/>
+
+    </LinearLayout>
+
+
+
+
+    <!--<com.tsroad.map.HorizontalListView-->
+    <!--android:paddingBottom="0dp"-->
+    <!--android:id="@+id/horizontallistview1"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="70dip"-->
+    <!--android:Text="#00000000"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_gravity="bottom|center" />-->
+
+    <!--<fragment-->
+    <!--android:id="@+id/navigation_drawer"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="50dip"-->
+    <!--android:layout_gravity="start"-->
+    <!--android:color="#ffcdffd7"-->
+    <!--tools:layout="@layout/fragment_main"/>-->
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="@string/action_route"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff51b17c"
+        />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="84dp"
+        android:orientation="horizontal"
+        android:background="#99727272">
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <EditText
+                android:id="@+id/autotextview_roadsearch_start"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_search"
+                android:dropDownVerticalOffset="1.0dip"
+                android:hint="起点:"
+                android:maxLength="20"
+                android:paddingRight="37.0dip"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@+id/autotextview_roadsearch_goals"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/text_search"
+                android:dropDownVerticalOffset="1.0dip"
+                android:hint="终点:"
+                android:maxLength="20"
+                android:paddingRight="37.0dip"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="16.0sp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imagebtn_roadsearch_search"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:background="@drawable/btn_default_small"
+            android:src="@drawable/btn_poi_search_normal"
+            android:layout_weight="0.05" />
+    </LinearLayout>
+    <WebView
+        android:id="@+id/route"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Road</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about"  >关于</string>
+    <string name="action_me"     >Road</string>
+    <string name="action_route"  >去哪儿</string>
+    <string name="action_around" >附近1公里</string>
+    <string name="action_indoor" >室内定位</string>
+
+
+    <string name="drawer_button1">附近</string>
+    <string name="drawer_button2">导航</string>
+    <string name="drawer_button3">室内</string>
+    <string name="drawer_button4">我的</string>
+
+
+    <string name="me_drawer_button1">电子围栏</string>
+    <string name="me_drawer_button2">我的足迹</string>
+
+
+    <string name="set_fence" >设置电子围栏</string>
+    <string name="shape1_fence" >圆形</string>
+    <string name="shape2_fence" >方形</string>
+    <string name="set_center_fence">设置电子围栏的中心位置</string>
+    <string name="set_radius_fence">设置电子围栏的半径大小: 单位m/米</string>
+    <string name="button_confirm">确认</string>
+
+
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="error_key">key验证无效！</string>
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="no_result">大侠儿，你找的地方有点偏</string>
+
+    <string name="action_sos_number">亲情号码</string>
+    <string name="action_my_trace"  >足可追踪</string>
+    <string name="action_calc_dis"  >测距</string>
+    <string name="action_calc_dis1"  >点击地图开始测距</string>
+    <string name="action_calc_dis2"  >继续点击地图</string>
+    <string name="action_calc_text"  >清空</string>
+
+    <string name="offline_maps">下载地图</string>
+
+
+
+
+    <string name="action_exit">exit</string>
+    <string name="app_drawer">drawer</string>
+    <string name="about_context">\n\n\nTsroad v2.0506\n\n\n\n@T.s.road </string>
+
+
+</resources>

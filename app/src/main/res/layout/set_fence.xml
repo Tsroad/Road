@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="@string/set_fence"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff51b17c"/>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <TextView
+            android:text="@string/set_radius_fence"
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:textSize="16sp"
+
+            />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/set_radius_fence"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.53"
+                android:layout_gravity="bottom" />
+            <Button
+                android:id="@+id/set_confirm_button"
+                android:text="@string/button_confirm"
+                android:textColor="#ff51b17c"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+                android:gravity="center_vertical"
+                android:text="@string/set_center_fence"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:textSize="16sp"
+                />
+        <com.amap.api.maps.MapView
+                android:id="@+id/set_center_fence"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_weight="110.27"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
