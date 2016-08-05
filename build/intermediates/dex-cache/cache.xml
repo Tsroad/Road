@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/tsroad/GdMap/Road3/app/libs/Android_Navi_V1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="608ac5c3d9ff1e979301a88f5cb8e66d75333db4">
+        <dex dex="/home/tsroad/GdMap/Road3/app/build/intermediates/pre-dexed/debug/Android_Navi_V1.1.2-9072034e0eb77881c5099b5398d399c6b30edfb9.jar" />
+    </item>
+    <item
+        jar="/home/tsroad/GdMap/Road3/app/libs/Android_Location_V1.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b64d1f38ef7ee28b538d61a39d040f249c65587c">
+        <dex dex="/home/tsroad/GdMap/Road3/app/build/intermediates/pre-dexed/debug/Android_Location_V1.3.2-978ffe413670b47d58afcde02d6dd0fb7ad5256b.jar" />
+    </item>
+    <item
+        jar="/home/tsroad/GdMap/Road3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/tsroad/GdMap/Road3/app/build/intermediates/pre-dexed/debug/classes-c2a9fe0867d4ea17a446bf7da990def8d7c15bb8.jar" />
+    </item>
+    <item
+        jar="/home/tsroad/GdMap/Road3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/tsroad/GdMap/Road3/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-bef8fcedeb2b11098aa9a0c324b8a26ef5d3df2c.jar" />
+    </item>
+    <item
+        jar="/home/tsroad/GdMap/Road3/app/libs/AMap_Services_V2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3057067b0d15469c99c2e8b1a87d66c94862ac7a">
+        <dex dex="/home/tsroad/GdMap/Road3/app/build/intermediates/pre-dexed/debug/AMap_Services_V2.4.0-ccd5ae388dac9c6a1dc5555f41125edb7ac19cd5.jar" />
+    </item>
+    <item
+        jar="/home/tsroad/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/tsroad/GdMap/Road3/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-a22f5600ed269d87fa986b15109d5600594ec4c9.jar" />
+    </item>
+    <item
+        jar="/home/tsroad/GdMap/Road3/app/libs/AMap_3DMap_V2.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="49c1dc076a092ae24d5980a6c8d20f08af849ea0">
+        <dex dex="/home/tsroad/GdMap/Road3/app/build/intermediates/pre-dexed/debug/AMap_3DMap_V2.4.1-2a2fa8a9654d511aae649975d3290f09659fb994.jar" />
+    </item>
+    <item
+        jar="/home/tsroad/GdMap/Road3/app/libs/Msc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="14e02a95fa56eb18b385a4f156b4fb14d4721df4">
+        <dex dex="/home/tsroad/GdMap/Road3/app/build/intermediates/pre-dexed/debug/Msc-8482ef43006118406c106b59d814216e551d99b2.jar" />
+    </item>
+    <item
+        jar="/home/tsroad/GdMap/Road3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/tsroad/GdMap/Road3/app/build/intermediates/pre-dexed/debug/classes-25eba090bcadce97d7a6ae0394273799d18adb45.jar" />
+    </item>
+
+</items>
