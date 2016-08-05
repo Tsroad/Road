@@ -1,0 +1,221 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:5:5
+MERGED from com.android.support:appcompat-v7:22.0.0:22:5
+MERGED from com.android.support:support-v4:22.0.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:8:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:6:9
+	android:icon
+		ADDED from AndroidManifest.xml:7:9
+	android:theme
+		ADDED from AndroidManifest.xml:9:9
+meta-data#com.amap.api.v2.apikey
+ADDED from AndroidManifest.xml:11:9
+	android:value
+		ADDED from AndroidManifest.xml:13:13
+	android:name
+		ADDED from AndroidManifest.xml:12:13
+activity#com.tsroad.map.MainActivity
+ADDED from AndroidManifest.xml:17:9
+	android:label
+		ADDED from AndroidManifest.xml:19:13
+	android:name
+		ADDED from AndroidManifest.xml:18:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:20:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:21:17
+	android:name
+		ADDED from AndroidManifest.xml:21:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:27
+activity#com.tsroad.map.About
+ADDED from AndroidManifest.xml:27:9
+	android:value
+		ADDED from AndroidManifest.xml:29:13
+	android:name
+		ADDED from AndroidManifest.xml:28:13
+activity#com.tsroad.map.PositionButtonActivity
+ADDED from AndroidManifest.xml:30:9
+	android:value
+		ADDED from AndroidManifest.xml:32:13
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+activity#com.tsroad.map.GeoFenceActivity
+ADDED from AndroidManifest.xml:33:9
+	android:value
+		ADDED from AndroidManifest.xml:35:13
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+activity#com.tsroad.map.MyActivity
+ADDED from AndroidManifest.xml:37:9
+	android:value
+		ADDED from AndroidManifest.xml:39:13
+	android:name
+		ADDED from AndroidManifest.xml:38:13
+activity#com.tsroad.map.SetFenceActivity
+ADDED from AndroidManifest.xml:40:9
+	android:value
+		ADDED from AndroidManifest.xml:42:13
+	android:name
+		ADDED from AndroidManifest.xml:41:13
+activity#com.tsroad.map.SetSosNumberActivity
+ADDED from AndroidManifest.xml:43:9
+	android:value
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+activity#com.tsroad.map.OfflineMapActivity
+ADDED from AndroidManifest.xml:46:9
+	android:value
+		ADDED from AndroidManifest.xml:48:9
+	android:name
+		ADDED from AndroidManifest.xml:47:9
+activity#com.tsroad.map.SearchActivity
+ADDED from AndroidManifest.xml:49:9
+	android:value
+		ADDED from AndroidManifest.xml:51:13
+	android:name
+		ADDED from AndroidManifest.xml:50:13
+activity#com.tsroad.map.poisearch.PoiAroundSearchActivity
+ADDED from AndroidManifest.xml:54:9
+	android:value
+		ADDED from AndroidManifest.xml:56:13
+	android:name
+		ADDED from AndroidManifest.xml:55:13
+activity#com.tsroad.map.Around
+ADDED from AndroidManifest.xml:59:9
+	android:value
+		ADDED from AndroidManifest.xml:61:13
+	android:name
+		ADDED from AndroidManifest.xml:60:13
+activity#com.tsroad.map.route.RouteActivity
+ADDED from AndroidManifest.xml:64:9
+	android:value
+		ADDED from AndroidManifest.xml:66:13
+	android:name
+		ADDED from AndroidManifest.xml:65:13
+activity#com.tsroad.map.TraceActivity
+ADDED from AndroidManifest.xml:70:9
+	android:value
+		ADDED from AndroidManifest.xml:72:13
+	android:name
+		ADDED from AndroidManifest.xml:71:13
+activity#com.tsroad.map.IndoorActivity
+ADDED from AndroidManifest.xml:75:9
+	android:value
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+activity#com.tsroad.map.SetTraceActivity
+ADDED from AndroidManifest.xml:80:9
+	android:value
+		ADDED from AndroidManifest.xml:82:13
+	android:name
+		ADDED from AndroidManifest.xml:81:13
+activity#com.tsroad.map.NavigateArrowOverlayActivity
+ADDED from AndroidManifest.xml:86:9
+	android:value
+		ADDED from AndroidManifest.xml:88:9
+	android:name
+		ADDED from AndroidManifest.xml:87:9
+activity#com.tsroad.map.GeocoderActivity
+ADDED from AndroidManifest.xml:92:9
+	android:value
+		ADDED from AndroidManifest.xml:94:13
+	android:name
+		ADDED from AndroidManifest.xml:93:13
+activity#com.tsroad.map.CalculateDistanceActivity
+ADDED from AndroidManifest.xml:96:9
+	android:value
+		ADDED from AndroidManifest.xml:98:13
+	android:name
+		ADDED from AndroidManifest.xml:97:13
+activity#com.tsroad.map.database.SQLiteActivity
+ADDED from AndroidManifest.xml:100:9
+	android:value
+		ADDED from AndroidManifest.xml:102:13
+	android:name
+		ADDED from AndroidManifest.xml:101:13
+activity#com.tsroad.map.database.AddActivity
+ADDED from AndroidManifest.xml:104:9
+	android:value
+		ADDED from AndroidManifest.xml:106:13
+	android:name
+		ADDED from AndroidManifest.xml:105:13
+activity#com.tsroad.map.database.QueryActivity
+ADDED from AndroidManifest.xml:108:9
+	android:value
+		ADDED from AndroidManifest.xml:110:13
+	android:name
+		ADDED from AndroidManifest.xml:109:13
+activity#com.tsroad.map.Welcome
+ADDED from AndroidManifest.xml:112:9
+	android:value
+		ADDED from AndroidManifest.xml:114:13
+	android:name
+		ADDED from AndroidManifest.xml:113:13
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:118:5
+	android:name
+		ADDED from AndroidManifest.xml:118:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:119:5
+	android:name
+		ADDED from AndroidManifest.xml:119:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:120:5
+	android:name
+		ADDED from AndroidManifest.xml:120:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:121:5
+	android:name
+		ADDED from AndroidManifest.xml:121:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:123:5
+	android:name
+		ADDED from AndroidManifest.xml:123:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:124:5
+	android:name
+		ADDED from AndroidManifest.xml:124:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from AndroidManifest.xml:125:5
+	android:name
+		ADDED from AndroidManifest.xml:125:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:126:5
+	android:name
+		ADDED from AndroidManifest.xml:126:22
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from AndroidManifest.xml:127:5
+	android:name
+		ADDED from AndroidManifest.xml:127:22
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:22.0.0:20:5
+MERGED from com.android.support:support-v4:22.0.0:20:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
