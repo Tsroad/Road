@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tsroad.map" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="a0f6ac008fa2291760b9dce5d67d40e1"/>
+        <!--
+        8D:0F:CF:3F:84:62:38:EC:1D:E3:45:35:06:C9:43:63:2A:0D:EF:EB
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".About"
+            android:value="@string/app_drawer"/>
+        <activity
+            android:name=".PositionButtonActivity"
+            android:value="@string/app_drawer"/>
+        <activity
+            android:name=".GeoFenceActivity"
+            android:value="@string/app_drawer"/>
+
+        <activity
+            android:name=".MyActivity"
+            android:value="@string/app_drawer"/>
+        <activity
+            android:name=".SetFenceActivity"
+            android:value="@string/app_drawer"/>
+        <activity
+            android:name=".SetSosNumberActivity"
+            android:value="@string/app_drawer"/>
+        <activity
+        android:name=".OfflineMapActivity"
+        android:value="@string/app_drawer"/>
+        <activity
+            android:name=".SearchActivity"
+            android:value="@string/app_drawer">
+        </activity>
+
+        <activity
+            android:name=".poisearch.PoiAroundSearchActivity"
+            android:value="@string/app_drawer">
+
+        </activity>
+        <activity
+            android:name=".Around"
+            android:value="@string/app_drawer">
+
+        </activity>
+        <activity
+            android:name=".route.RouteActivity"
+            android:value="@string/app_drawer">
+
+        </activity>
+
+        <activity
+            android:name=".TraceActivity"
+            android:value="@string/app_drawer">
+
+        </activity>
+        <activity
+            android:name=".IndoorActivity"
+            android:value="@string/app_drawer">
+
+        </activity>
+        <activity
+            android:name=".SetTraceActivity"
+            android:value="@string/app_drawer">
+
+        </activity>
+
+        <activity
+        android:name=".NavigateArrowOverlayActivity"
+        android:value="@string/app_drawer">
+        </activity>
+
+
+        <activity
+            android:name=".GeocoderActivity"
+            android:value="@string/app_drawer">
+        </activity>
+        <activity
+            android:name=".CalculateDistanceActivity"
+            android:value="@string/app_drawer">
+        </activity>
+        <activity
+            android:name=".database.SQLiteActivity"
+            android:value="@string/app_drawer">
+        </activity>
+        <activity
+            android:name=".database.AddActivity"
+            android:value="@string/app_drawer">
+        </activity>
+        <activity
+            android:name=".database.QueryActivity"
+            android:value="@string/app_drawer">
+        </activity>
+        <activity
+            android:name=".Welcome"
+            android:value="@string/app_drawer">
+        </activity>
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+
+</manifest>
