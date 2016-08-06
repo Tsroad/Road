@@ -2,7 +2,6 @@ package com.tsroad.map;
 
 import android.app.Activity;
 import android.os.Bundle;
-
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.CameraUpdateFactory;
 import com.amap.api.maps.MapView;
@@ -10,6 +9,10 @@ import com.amap.api.maps.model.CameraPosition;
 import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.NavigateArrowOptions;
 
+
+/**
+ * Created by tsroad on 27/04/15.
+ */
 
 /**
  * AMapV2地图中介绍如何显示一个基本地图
