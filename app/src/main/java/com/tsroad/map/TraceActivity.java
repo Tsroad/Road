@@ -1,14 +1,11 @@
 package com.tsroad.map;
 
-
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
 import android.os.Trace;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
-
-
 import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationListener;
 import com.amap.api.location.LocationManagerProxy;
@@ -17,7 +14,6 @@ import com.amap.api.maps.AMap;
 import com.amap.api.maps.MapView;
 import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.PolylineOptions;
-
 import java.util.ArrayList;
 import java.util.List;
 
