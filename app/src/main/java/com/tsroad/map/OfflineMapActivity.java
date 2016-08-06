@@ -3,7 +3,6 @@ package com.tsroad.map;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -22,7 +21,6 @@ import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import com.amap.api.maps.AMapException;
 import com.amap.api.maps.MapView;
 import com.amap.api.maps.offlinemap.OfflineMapCity;
