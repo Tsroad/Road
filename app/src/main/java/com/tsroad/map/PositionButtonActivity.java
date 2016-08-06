@@ -1,10 +1,5 @@
 package com.tsroad.map;
 
-/**
- * Created by tsroad on 27/04/15.
- */
-
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Fragment;
@@ -19,7 +14,6 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
-
 import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationListener;
 import com.amap.api.location.LocationManagerProxy;
@@ -34,8 +28,11 @@ import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.Marker;
 import com.amap.api.maps.model.MarkerOptions;
 import com.amap.api.maps.model.MyLocationStyle;
-
 import java.util.ArrayList;
+
+/**
+ * Created by tsroad on 27/04/15.
+ */
 
 /**
  * AMapV2地图中简单介绍显示定位小蓝点
