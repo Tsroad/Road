@@ -1,7 +1,6 @@
 package com.tsroad.map;
 
 import java.util.ArrayList;
-
 import android.content.Context;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -13,8 +12,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
-
-
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.AMapOptions;
 import com.amap.api.maps.AMapUtils;
