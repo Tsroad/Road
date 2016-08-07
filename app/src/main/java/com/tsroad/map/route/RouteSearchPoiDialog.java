@@ -12,6 +12,10 @@ import android.widget.ListView;
 import com.amap.api.services.core.PoiItem;
 import com.tsroad.map.R;
 
+/**
+ * Created by T.s.road on 2015/4/13 0013.
+ */
+
 public class RouteSearchPoiDialog extends Dialog implements
 		OnItemClickListener, OnItemSelectedListener {
 
