@@ -10,7 +10,6 @@ import android.widget.TextView;
 import com.amap.api.services.core.PoiItem;
 import com.tsroad.map.R;
 
-
 public class RouteSearchAdapter extends BaseAdapter {
 	private Context context;
 	private List<PoiItem> poiItems = null;
