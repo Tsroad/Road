@@ -1,7 +1,6 @@
 package com.tsroad.map.route;
 
 import java.util.List;
-
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
@@ -10,10 +9,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ListView;
-
 import com.amap.api.services.core.PoiItem;
 import com.tsroad.map.R;
-
 
 public class RouteSearchPoiDialog extends Dialog implements
 		OnItemClickListener, OnItemSelectedListener {
