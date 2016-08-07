@@ -60,6 +60,9 @@ import com.tsroad.map.util.AMapUtil;
 import com.tsroad.map.util.OffLineMapUtils;
 import com.tsroad.map.util.ToastUtil;
 
+/**
+ * Created by T.s.road on 2015/4/13 0013.
+ */
 
 /**
  * AMapV2地图中简单介绍route搜索
