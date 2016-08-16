@@ -9,12 +9,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-
 import com.tsroad.map.R;
 
-
 public class SQLiteActivity extends Activity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,8 +62,6 @@ public class SQLiteActivity extends Activity {
             db.update("user", values, "name=????", new String[]{"4"});//表名，null, values
         }
     //.schema  查看当前数据库里的表
-
-
 
     //查找
 
