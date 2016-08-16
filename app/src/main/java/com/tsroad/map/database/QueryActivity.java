@@ -1,8 +1,5 @@
 package com.tsroad.map.database;
 
-/**
- * Created by tsroad on 5/6/15.
- */
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.DialogInterface;
@@ -13,9 +10,12 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.AdapterView.OnItemClickListener;
-
 import com.tsroad.map.R;
 
+/**
+ * Created by tsroad on 5/6/15.
+ */
+ 
 public class QueryActivity extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
