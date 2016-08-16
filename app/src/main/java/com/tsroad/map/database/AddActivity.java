@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
 import com.tsroad.map.R;
 
 /**
  * Created by tsroad on 5/6/15.
  */
+ 
 public class AddActivity extends Activity {
     private EditText et1, et2, et3;
     private Button b1;
