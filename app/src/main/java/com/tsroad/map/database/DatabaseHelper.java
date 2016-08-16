@@ -7,18 +7,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-
 /**
  * Created by T.s.road on 2015/4/7 0007.
  */
 
-/**
- * Database 作为一个访问SQLite的助手类，提供两个方面的功能
- * 第一，getReadableDatabase(),getWritableDatabase()可以获得SQLiteDatabase对象
- * 第二，提供了onCreate()和onUpdate()两个回调函数，允许我们在创建和升级数据库时，进行
- *
- *
- * */
 public class DatabaseHelper extends SQLiteOpenHelper
 {
     private static final int VERSION = 1;
@@ -45,27 +37,6 @@ public class DatabaseHelper extends SQLiteOpenHelper
     public DatabaseHelper(Context context, String name) {
         this(context, name,VERSION);
     }
-
-
-
-    /**
-     * 该函数在第一次创建数据库的时候执行，
-     * 实际上是在第一次得到SQLiteDatabase对象时，get之后才会调用这个方法
-     *
-     * */
-//    @Override
-//    public void onCreate(SQLiteDatabase db) {
-//
-//        Log.e("----------------------","Create a Database");
-//        db.execSQL("create table user(name varchar(20),number_id varchar(11))");
-//
-//    }
-//
-//    @Override
-//    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-//        Log.e("----------------------","update a Database");
-//    }
-
 
         private static final String DB_NAME = "coll.db";
         private static final String TBL_NAME = "CollTbl";
