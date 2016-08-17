@@ -8,16 +8,13 @@
     <string name="action_around" >附近1公里</string>
     <string name="action_indoor" >室内定位</string>
 
-
     <string name="drawer_button1">附近</string>
     <string name="drawer_button2">导航</string>
     <string name="drawer_button3">室内</string>
     <string name="drawer_button4">我的</string>
 
-
     <string name="me_drawer_button1">电子围栏</string>
     <string name="me_drawer_button2">我的足迹</string>
-
 
     <string name="set_fence" >设置电子围栏</string>
     <string name="shape1_fence" >圆形</string>
@@ -43,6 +40,5 @@
     <string name="action_exit">exit</string>
     <string name="app_drawer">drawer</string>
     <string name="about_context">\n\n\nTsroad v2.0506\n\n\n\n@T.s.road </string>
-
 
 </resources>
