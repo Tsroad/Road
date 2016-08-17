@@ -26,7 +26,6 @@
     <string name="set_radius_fence">设置电子围栏的半径大小: 单位m/米</string>
     <string name="button_confirm">确认</string>
 
-
     <string name="error_network">搜索失败,请检查网络连接！</string>
     <string name="error_key">key验证无效！</string>
     <string name="error_other">未知错误，请稍后重试!错误码为</string>
@@ -40,9 +39,6 @@
     <string name="action_calc_text"  >清空</string>
 
     <string name="offline_maps">下载地图</string>
-
-
-
 
     <string name="action_exit">exit</string>
     <string name="app_drawer">drawer</string>
