@@ -11,8 +11,6 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-
-
 /**
  * Created by tsroad on 5/4/15.
  */
@@ -38,14 +36,8 @@ public class Around extends Activity implements GestureDetector.OnGestureListene
         ws.setDomStorageEnabled(true);
         ws.setAppCacheEnabled(true);
         ws.setCacheMode(WebSettings.LOAD_DEFAULT);
-        // FIXME 设置浏览器静态的http头信息，可能会导致部分的机子不兼容
-//        ws.setUserAgentString("Mozilla/4.0 (Linux; U; Android 2.3; zh-CN; MI-ONEPlus) AppleWebKit/534.13 (KHTML, like Gecko) UCBrowser/8.6.0.199 U3/0.8.0 Mobile Safari/534.13");
 
          myWebView.setWebViewClient(new MyWebViewClient());
-
-        // String url=getActivity().getIntent().getStringExtra("url");
-//        String url="https://www.baidu.com/";
-//        webView.loadUrl(url);
 
         Intent intent =getIntent();
         String uri = intent.getData().toString();
