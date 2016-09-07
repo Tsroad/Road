@@ -35,7 +35,6 @@ public class MyActivity extends ListActivity {
         map5.put("user_name","距离测量");
         map6.put("user_name","关于我们");
 
-
         list.add(map1);
         list.add(map2);
         list.add(map3);
@@ -43,10 +42,8 @@ public class MyActivity extends ListActivity {
         list.add(map5);
         list.add(map6);
 
-
         SimpleAdapter listAdapt= new SimpleAdapter(this,list,R.layout.user,new String[] {"user_name","user_ip"}, new int []{R.id.user_name,R.id.user_ip});
         setListAdapter(listAdapt);
-
     }
 
     @Override
@@ -57,7 +54,6 @@ public class MyActivity extends ListActivity {
         System.out.println("position--------"+position);
         switch (position)
         {
-
             case 0://我的足迹
                 Intent intent0 = new Intent();
                 intent0.setClass(MyActivity.this,SetTraceActivity.class);
@@ -81,19 +77,12 @@ public class MyActivity extends ListActivity {
                 intent4.setClass(MyActivity.this,CalculateDistanceActivity.class);
                 MyActivity.this.startActivity(intent4);
                 break;
-
             case 5://关于我们
                 Intent intent7 = new Intent();
                 intent7.setClass(MyActivity.this,About.class);
                 MyActivity.this.startActivity(intent7);
                 break;
-
-
-
-
         }
-
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -108,12 +97,10 @@ public class MyActivity extends ListActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
