@@ -1,19 +1,14 @@
 package com.tsroad.map;
-
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
-
-
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationListener;
 import com.amap.api.location.LocationManagerProxy;
@@ -38,9 +33,7 @@ import com.amap.api.services.geocoder.RegeocodeResult;
 import com.tsroad.map.route.RouteActivity;
 import com.tsroad.map.util.AMapUtil;
 import com.tsroad.map.util.ToastUtil;
-
 import java.util.ArrayList;
-
 
 public class MainActivity extends ActionBarActivity implements LocationSource,
         AMapLocationListener,AMap.OnMapClickListener ,GeocodeSearch.OnGeocodeSearchListener {
@@ -485,36 +478,6 @@ public class MainActivity extends ActionBarActivity implements LocationSource,
         geocoderSearch.getFromLocationAsyn(query);// 设置同步逆地理编码请求
     }
 
-//    /**
-//     * 地理编码查询回调
-//     */
-//    @Override
-//    public void onGeocodeSearched(GeocodeResult result, int rCode) {
-//        dismissDialog();
-//        if (rCode == 0) {
-//            if (result != null && result.getGeocodeAddressList() != null
-//                    && result.getGeocodeAddressList().size() > 0) {
-//                GeocodeAddress address = result.getGeocodeAddressList().get(0);
-//                aMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
-//                        AMapUtil.convertToLatLng(address.getLatLonPoint()), 15));
-//                geoMarker.setPosition(AMapUtil.convertToLatLng(address
-//                        .getLatLonPoint()));
-//                addressName = "经纬度值:" + address.getLatLonPoint() + "\n位置描述:"
-//                        + address.getFormatAddress();
-//                ToastUtil.show(MainActivity.this, addressName);
-//            } else {
-//                ToastUtil.show(MainActivity.this, R.string.no_result);
-//            }
-//        } else if (rCode == 27) {
-//            ToastUtil.show(MainActivity.this, R.string.error_network);
-//        } else if (rCode == 32) {
-//            ToastUtil.show(MainActivity.this, R.string.error_key);
-//        } else {
-//            ToastUtil.show(MainActivity.this,
-//                    getString(R.string.error_other) + rCode);
-//        }
-//    }
-
     /**
      * 逆地理编码回调
      */
@@ -557,16 +520,6 @@ public class MainActivity extends ActionBarActivity implements LocationSource,
 
     }
 
-
-//------------------------------------------------------------
-//------------------------------------------------------------
 //-------------------------以上是地理解析程序-----------------------
-//------------------------------------------------------------
-//------------------------------------------------------------
-//------------------------------------------------------------
-
-
-
-
 
 }
