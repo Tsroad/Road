@@ -1,12 +1,10 @@
 package com.tsroad.map;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
-
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -14,6 +12,7 @@ import android.webkit.WebViewClient;
 /**
  * Created by tsroad on 5/4/15.
  */
+
 public class Around extends Activity implements GestureDetector.OnGestureListener {
 
     WebView myWebView =null ;
