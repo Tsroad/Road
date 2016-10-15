@@ -1,12 +1,10 @@
 package com.tsroad.map;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.CameraUpdateFactory;
 import com.amap.api.maps.MapView;
@@ -24,10 +22,17 @@ import com.amap.api.services.geocoder.RegeocodeResult;
 import com.tsroad.map.util.AMapUtil;
 import com.tsroad.map.util.ToastUtil;
 
-
 /**
+% @authors Keung Charteris & T.s.road CZQ
+% @version 1.0 ($Revision$)
+% @addr. GUET, Gui Lin, 540001,  P.R.China
+% @contact : cztsiang@gmail.com
+% @date Copyright(c)  2016-2020,  All rights reserved.
+% This is an open access code distributed under the Creative Commons Attribution License, which permits 
+% unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
  * 地理编码与逆地理编码功能介绍
  */
+
 public class GeocoderActivity extends Activity implements
 		OnGeocodeSearchListener, OnClickListener {
 	private ProgressDialog progDialog = null;
