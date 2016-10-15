@@ -16,9 +16,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
-
-
 import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationListener;
 import com.amap.api.location.LocationManagerProxy;
@@ -33,12 +30,19 @@ import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.Marker;
 import com.amap.api.maps.model.MarkerOptions;
 import com.amap.api.maps.model.MyLocationStyle;
-
 import java.util.ArrayList;
 
 /**
+% @authors Keung Charteris & T.s.road CZQ
+% @version 1.0 ($Revision$)
+% @addr. GUET, Gui Lin, 540001,  P.R.China
+% @contact : cztsiang@gmail.com
+% @date Copyright(c)  2016-2020,  All rights reserved.
+% This is an open access code distributed under the Creative Commons Attribution License, which permits 
+% unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
  * Created by tsroad on 01/05/15.
  */
+
 public class SetFenceActivity  extends FragmentActivity implements AMap.OnMapClickListener, AMapLocationListener,GestureDetector.OnGestureListener, LocationSource{
 
     private MapView mapView = null;
