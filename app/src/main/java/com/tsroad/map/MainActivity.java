@@ -34,6 +34,15 @@ import com.tsroad.map.route.RouteActivity;
 import com.tsroad.map.util.AMapUtil;
 import com.tsroad.map.util.ToastUtil;
 import java.util.ArrayList;
+/**
+% @authors Keung Charteris & T.s.road CZQ
+% @version 1.0 ($Revision$)
+% @addr. GUET, Gui Lin, 540001,  P.R.China
+% @contact : cztsiang@gmail.com
+% @date Copyright(c)  2016-2020,  All rights reserved.
+% This is an open access code distributed under the Creative Commons Attribution License, which permits 
+% unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
+*/
 
 public class MainActivity extends ActionBarActivity implements LocationSource,
         AMapLocationListener,AMap.OnMapClickListener ,GeocodeSearch.OnGeocodeSearchListener {
