@@ -30,8 +30,16 @@ import com.amap.api.maps.offlinemap.OfflineMapProvince;
 import com.amap.api.maps.offlinemap.OfflineMapStatus;
 
 /**
+% @authors Keung Charteris & T.s.road CZQ
+% @version 1.0 ($Revision$)
+% @addr. GUET, Gui Lin, 540001,  P.R.China
+% @contact : cztsiang@gmail.com
+% @date Copyright(c)  2016-2020,  All rights reserved.
+% This is an open access code distributed under the Creative Commons Attribution License, which permits 
+% unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
  * AMapV2地图中简单介绍离线地图下载
  */
+
 public class OfflineMapActivity extends Activity implements GestureDetector.OnGestureListener,
 		OfflineMapDownloadListener {
 	private OfflineMapManager amapManager = null;// 离线地图下载控制器
