@@ -8,13 +8,20 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
+% @authors Keung Charteris & T.s.road CZQ
+% @version 1.0 ($Revision$)
+% @addr. GUET, Gui Lin, 540001,  P.R.China
+% @contact : cztsiang@gmail.com
+% @date Copyright(c)  2016-2020,  All rights reserved.
+% This is an open access code distributed under the Creative Commons Attribution License, which permits 
+% unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
  * Created by tsroad on 01/05/15.
  */
+
 public class SetSosNumberActivity  extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,13 +68,7 @@ public class SetSosNumberActivity  extends ListActivity {
             case 5://关于我们
 
                 break;
-
-
-
-
         }
-
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -87,7 +88,6 @@ public class SetSosNumberActivity  extends ListActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
