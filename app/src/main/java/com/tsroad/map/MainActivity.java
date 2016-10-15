@@ -34,6 +34,7 @@ import com.tsroad.map.route.RouteActivity;
 import com.tsroad.map.util.AMapUtil;
 import com.tsroad.map.util.ToastUtil;
 import java.util.ArrayList;
+
 /**
 % @authors Keung Charteris & T.s.road CZQ
 % @version 1.0 ($Revision$)
