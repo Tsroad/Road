@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.tsroad.map.util;
 
 import java.text.DecimalFormat;
@@ -8,13 +5,21 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 import android.text.Html;
 import android.text.Spanned;
 import android.widget.EditText;
-
 import com.amap.api.maps.model.LatLng;
 import com.amap.api.services.core.LatLonPoint;
+
+/**
+% @authors Keung Charteris & T.s.road CZQ
+% @version 1.0 ($Revision$)
+% @addr. GUET, Gui Lin, 540001,  P.R.China
+% @contact : cztsiang@gmail.com
+% @date Copyright(c)  2016-2020,  All rights reserved.
+% This is an open access code distributed under the Creative Commons Attribution License, which permits 
+% unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
+*/
 
 public class AMapUtil {
 	/**
