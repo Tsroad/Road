@@ -1,5 +1,15 @@
 package com.tsroad.map.util;
 
+/**
+% @authors Keung Charteris & T.s.road CZQ
+% @version 1.0 ($Revision$)
+% @addr. GUET, Gui Lin, 540001,  P.R.China
+% @contact : cztsiang@gmail.com
+% @date Copyright(c)  2016-2020,  All rights reserved.
+% This is an open access code distributed under the Creative Commons Attribution License, which permits 
+% unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
+*/
+
 public class ChString {
 	public static final String Kilometer = "\u516c\u91cc";// "公里";
 	public static final String Meter = "\u7c73";// "米";
