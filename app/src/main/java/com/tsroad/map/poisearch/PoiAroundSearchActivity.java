@@ -1,7 +1,6 @@
 package com.tsroad.map.poisearch;
 
 import java.util.List;
-
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -12,7 +11,6 @@ import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.AMap.InfoWindowAdapter;
 import com.amap.api.maps.AMap.OnInfoWindowClickListener;
@@ -39,6 +37,15 @@ import com.amap.api.services.poisearch.Scenic;
 import com.tsroad.map.R;
 import com.tsroad.map.util.ToastUtil;
 
+/**
+% @authors Keung Charteris & T.s.road CZQ
+% @version 1.0 ($Revision$)
+% @addr. GUET, Gui Lin, 540001,  P.R.China
+% @contact : cztsiang@gmail.com
+% @date Copyright(c)  2016-2020,  All rights reserved.
+% This is an open access code distributed under the Creative Commons Attribution License, which permits 
+% unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 
+*/
 
 /**
  * AMapV2地图中简单介绍poisearch搜索
